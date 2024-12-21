@@ -1,8 +1,8 @@
 import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
+  NAME: "Akhilesh Kumbar",
+  EMAIL: "akhilkumbar@outlook.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
@@ -10,7 +10,7 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "I am a software engineer based in Boston, USA.",
 };
 
 export const BLOG: Metadata = {
@@ -23,22 +23,31 @@ export const WORK: Metadata = {
   DESCRIPTION: "Where I have worked and what I have done.",
 };
 
+export const RESUME: Metadata = {
+  TITLE: "Resume",
+  DESCRIPTION: "A summary of my work experience education and everything else.",
+}
+
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "A collection of my projects, with links to repositories.",
 };
 
 export const SOCIALS: Socials = [
   { 
     NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
+    HREF: "https://twitter.com/AkhileshSKumba1",
   },
   { 
     NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+    HREF: "https://github.com/akhilk2802"
   },
   { 
     NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
+    HREF: "https://www.linkedin.com/in/akhileshkumbar/",
+  },
+  {
+    NAME: "medium",
+    HREF: "https://medium.com/@akakhilkumbar",
   }
 ];

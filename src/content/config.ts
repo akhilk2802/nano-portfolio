@@ -20,6 +20,21 @@ const work = defineCollection({
   }),
 });
 
+const resume = defineCollection({
+  type: "content",
+  schema: z.object({
+    section_name: z.string().optional(),
+    priority: z.number(),
+    education: z.boolean().optional(),
+    eStartDate: z.string().optional(),
+    eEndDate: z.string().optional(),
+    eInstitution: z.string().optional(),
+    eDegree: z.string().optional(),
+    eLocation: z.string().optional(),
+    subHeading: z.string().optional(),
+  }),
+})
+
 const projects = defineCollection({
   type: "content",
   schema: z.object({
@@ -32,4 +47,4 @@ const projects = defineCollection({
   }),
 });
 
-export const collections = { blog, work, projects };
+export const collections = { blog, work, projects, resume };
