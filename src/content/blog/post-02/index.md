@@ -1,6 +1,6 @@
 ---
 title: "Building Real Time Website Analytics Tool"
-description: "project 01"
+description: "Using Stream Processing"
 date: "Dec 21 2024"
 ---
 

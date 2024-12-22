@@ -1,6 +1,6 @@
 ---
 title: "Web-Watch"
-description: "tool for capturing and analyzing real-time user interactions on websites"
+description: "Tool for capturing and analyzing real-time user interactions on websites"
 date: "Aug 01 2024"
 repoURL: "https://github.com/akhilk2802/WebWatch"
 ---
