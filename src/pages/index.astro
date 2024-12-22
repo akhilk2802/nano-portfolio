@@ -42,37 +42,47 @@ const work = await Promise.all(
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I am software engineer based in boston, MA. Currently a student at
-            Northeastern University, I previously worked at Sony Corporation.
-
-            <!-- <Link
-              href="https://github.com/markhorn-dev/astro-sphere"
-              aria-label="Astro Sphere on Github"
-              external
-            >
-              Astro Sphere
-            </Link>.  -->
-            Over the years i developed interest in cloud computing and distributed
-            systems, i enjoy learning about them, how the large scale systems work,
-            how they are scaled. I have built a few projects ranging from full stack
-            project, to cloud native applications to distributed systems. I am always
-            looking for new opportunities to learn and grow.
+            I am a software engineer based in Boston, MA, and currently
+            navigating the halls of Northeastern University. Before this
+            academic adventure, I honed my skills at Sony Corporation, where I
+            got a front-row seat to innovation.
           </p>
           <p class="animate">
-            During my Free time i contribute to open source projects, I help the
-            community. if i am not at desk coding, you will find me playing
-            guitar, watching F1, reading books, ocassionally doing calisthenics.
+            Somewhere along the way, I fell down the rabbit hole of cloud
+            computing and distributed systems. I am fascinated by how
+            large-scale systems operate and the wizardry that goes into scaling
+            them. From full-stack projects to cloud-native applications and
+            distributed systems, I have built a bit of everything (because
+            variety is the spice of engineering life).
           </p>
           <p class="animate">
-            Visit
+            Always on the lookout for opportunities to learn, grow, and maybe
+            even conquer new tech frontiers—preferably with coffee in hand!
+          </p>
+          <p class="animate">
+            During my free time, I like to give back to the tech world by
+            contributing to open-source projects and helping the community
+            (because sharing is caring, even in code).
+          </p>
+          <p class="animate">
+            When I am not glued to my desk coding, you will probably find me
+            strumming my guitar, catching the latest F1 race (go, Hamilton—or
+            not, depending on the day), diving into a good book, or occasionally
+            pretending I am a calisthenics pro. Balance is key, right?
+          </p>
+          <p class="animate">
+            Swing by my
             <Link
               href="https://github.com/akhilk2802"
               aria-label="Astro Nano on Github"
               external
             >
-              My Github
+              Github
             </Link>
-            to checkout some of my amazing projects.
+            to explore some of my amazing projects—because nothing says
+            <i>hire me</i>
+            like a repo full of brilliance and maybe a sprinkle of late-night coding
+            chaos!
           </p>
         </article>
       </section>
@@ -138,7 +148,7 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <section class="animate space-y-4">
+      <!-- <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">Let's Connect</h5>
         <article>
           <p>
@@ -170,6 +180,53 @@ const work = await Promise.all(
             </Link>
           </li>
         </ul>
+      </section> -->
+      <section class="animate space-y-4">
+        <!-- Heading and Description -->
+        <h5 class="font-semibold text-black dark:text-white">Let's Connect</h5>
+        <article>
+          <p>
+            If you want to get in touch with me about something or just to say
+            hi, reach out on social media or send me an email.
+          </p>
+        </article>
+
+        <!-- Links and Picture Section -->
+        <div class="flex flex-wrap md:flex-nowrap gap-4 items-start">
+          <!-- Left: Links -->
+          <ul class="flex flex-col gap-2 flex-1">
+            {
+              SOCIALS.map((SOCIAL) => (
+                <li>
+                  <Link
+                    href={SOCIAL.HREF}
+                    external
+                    aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}
+                  >
+                    {SOCIAL.NAME}
+                  </Link>
+                </li>
+              ))
+            }
+            <li>
+              <Link
+                href={`mailto:${SITE.EMAIL}`}
+                aria-label={`Email ${SITE.NAME}`}
+              >
+                {SITE.EMAIL}
+              </Link>
+            </li>
+          </ul>
+
+          <!-- Right: Picture -->
+          <div class="flex-shrink-0">
+            <img
+              src="/assets/akhil.jpg"
+              alt="Akhilesh Kumbar"
+              class="w-40 h-40 md:w-50 md:h-50 rounded-full object-cover"
+            />
+          </div>
+        </div>
       </section>
     </div>
   </Container>
