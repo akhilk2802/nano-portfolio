@@ -12,12 +12,12 @@ Project Flow
 
 1. Step 1: PDF Handling
    The system manages PDF files through two methods:
-   - Open-Source Tools (PyMuPDF): Transforms PDFs into markdown format and extracts images.
+   - Open-Source Tools (PyPDF2): Transforms PDFs into markdown format and extracts images.
    - Azure Text Extraction using AI: Processes extensive PDFs using a custom pipeline with high concurrency, adept at managing intricate document structures.
 
 2. Step 2: Data Storage and Administration
    - S3 Buckets: Preserves original PDFs alongside processed outputs (markdown, images, JSON).
-   - RDS (MySQL): Oversees metadata for PDFs and processed files, facilitating efficient querying and updates.
+   - RDS (PostgreSQL): Oversees metadata for PDFs and processed files, facilitating efficient querying and updates.
 
 3. Step 3: User Interaction via Streamlit
    Users engage with the processed data through a Streamlit interface, offering capabilities to:
