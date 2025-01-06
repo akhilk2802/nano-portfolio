@@ -1,5 +1,5 @@
 ---
-priority: 12
+priority: 15
 subHeading: "More about me"
 ---
 

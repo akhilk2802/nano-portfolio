@@ -1,6 +1,6 @@
 ---
 section_name: "Skills"
-priority: 10
+priority: 13
 ---
 
 

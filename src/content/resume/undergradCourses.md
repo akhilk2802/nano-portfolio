@@ -1,6 +1,6 @@
 ---
 priority: 6
-subHeading: "UnderGraduate Coursework"
+subHeading: "Under Graduate Coursework"
 ---
 
 1. Machine Learning
