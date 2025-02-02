@@ -12,3 +12,5 @@ subHeading: "More about me"
 *I’m all about the details—because perfection is just a collection of tiny, flawless bits.*
 
 *For me, the magic happens where user needs, business goals, and technical wizardry collide. The result? A product that’s not just good, but spot-on.*
+
+*Exploring the art of algorithms, one problem at a time - [leetcode](https://leetcode.com/u/akhil___k/)*
