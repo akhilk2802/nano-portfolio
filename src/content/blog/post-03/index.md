@@ -1,6 +1,6 @@
 ---
 title: "Interview Experience with Tesla"
-description: "My Experience interviewing with Tesla for software engineering Fall co-op"
+description: "My Experience interviewing with Tesla for Fall co-op"
 date: "Sept 10 2024"
 ---
 
