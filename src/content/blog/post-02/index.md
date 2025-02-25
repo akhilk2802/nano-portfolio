@@ -1,7 +1,7 @@
 ---
 title: "Building Real Time Website Analytics Tool"
 description: "Using Stream Processing"
-date: "Dec 21 2024"
+date: "August 21 2024"
 ---
 
 ![Project1](./project01.jpeg)
