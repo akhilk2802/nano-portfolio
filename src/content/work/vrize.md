@@ -5,6 +5,8 @@ dateStart: "02/01/2022"
 dateEnd: "07/01/2022"
 ---
 
+- Implemented advanced React UI components, like pagination, search and filtering boosting user engagement by 30%
+- Created automated test scripts with Selenium and Python, increasing test coverage by 20%, reducing manual testing efforts
 - Optimized front-end assets and utilized CDN services, improving website performance and reducing page load time by 20%
 - Created automated test scripts with Selenium and Python, increasing test coverage by 30%, reducing manual testing efforts
 - Developed Shopify Plus features, such as custom filters and enhanced checkout processes, boosting UX and conversions by 15%

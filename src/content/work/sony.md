@@ -6,16 +6,14 @@ dateEnd: "08/08/2023"
 ---
 
 
-
- - Scaled .NET WPF application to handle 12 IP cameras, optimizing producer-consumer model for efficient frame processing
- - Redesigned UI using MVVM and microfrontend architecture, supporting dynamic display of up to 12 real-time streams
- - Minimized frame drop rates by 35% by integrating Apache Kafka for real-time queue management from multiple IP cameras
- - Enhanced frame storage with asynchronous I/O and centralized database, achieving 40% reduction in data processing latency
- - Built a status tracking tool with ReactJS, DRF, and deployed on EC2 which increased team productivity by 30%
- - Improved security and compliance, reducing login errors by 40%, by implementing RBAC with Azure Active Directory
- - Reduced manual effort by 50% by integrating AWS SES for centralized report and notification management
- - Increased release frequency to weekly by automating container builds, AMI creation, and test execution using Jenkins pipeline
- - Accelerated feature delivery by 40% by leading the design and development of system architecture (HLD/LLD) while managing
-backend API development and deployment processes
+- Scaled .NET app to handle 12 concurrent streams with optimized multithreading, achieving 30% faster processing times
+- Redesigned UI using WPF and MVVM architecture, supporting seamless display of up to 12 real-time video streams
+- Minimized frame drop rates by 20% by integrating RabbitMQ for real-time queue management from distinct IP streams
+- Achieved a 30% improvement in system reliability by migrating from MEncoder to FFmpeg to enable seamless playback and fault-tolerant processing for transcoding and broadcasting live streams via RTSP
+- Enhanced frame storage with asynchronous I/O and centralized database, achieving 10% reduction in data processing latency
+- Built a status tracking tool using microservice architecture with Python (DRF), React, PostgreSQL, Docker deployed on AWS EC2 via Jenkins CI/CD, following Test-Driven-Development, improving team performance by 20%
+- Automated daily email updates by implementing an AWS Lambda function integrated with SES and RDS, saving approx. 10 hours per week and ensuring consistent, timely communication
+- Collaborated with the infra team to implement RBAC with Azure AD, enhancing security and reducing login errors from 50+ per week to less than 10, while streamlining user access management across the system
+- Developed alongside an Agile team of three and optimized RESTful APIs for key functionalities, achieving a 25% reduction in response times and 70% test coverage through comprehensive unit and integration testing
 
 [*link to project i worked on*](https://www.sony.com/en/SonyInfo/technology/activities/STEF2022/exhibition_0103/)
