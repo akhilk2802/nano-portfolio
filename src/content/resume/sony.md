@@ -1,7 +1,7 @@
 ---
 priority: 10
 education: True
-eInstitution: "Sony Corporation"
+eInstitution: "Sony"
 eDegree: "Software Engineer"
 eStartDate: "August 2022"
 eEndDate: "August 2023"

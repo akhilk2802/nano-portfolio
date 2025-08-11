@@ -1,5 +1,5 @@
 ---
-company: "Sony Corporation, Bangalore"
+company: "Sony, Bangalore"
 role: "Software Engineer"
 dateStart: "08/08/2022"
 dateEnd: "08/08/2023"
