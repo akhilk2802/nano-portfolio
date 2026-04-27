@@ -7,5 +7,3 @@ eStartDate: "January 2025"
 eEndDate: "May 2025"
 eLocation: "Boston, MA"
 ---
-
-- Worked as a Teaching Assistant under Professor Marwan Subbouh for the Advanced Big Data Applications course.
