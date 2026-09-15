@@ -49,5 +49,9 @@ export const SOCIALS: Socials = [
   {
     NAME: "medium",
     HREF: "https://medium.com/@akakhilkumbar",
+  },
+  {
+    NAME: "instagram",
+    HREF: "https://www.instagram.com/akhil___k",
   }
 ];
