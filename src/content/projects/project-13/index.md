@@ -5,11 +5,11 @@ date: "Aug 01 2024"
 repoURL: "https://github.com/akhilk2802/WebWatch"
 ---
 
-## Visualisation:
+## Visualization:
 
-![Visualisation](./grafana.jpeg)
+![Visualization](./grafana.jpeg)
 
-Built is a sophisticated tool for capturing and analyzing real-time user interactions on websites. Built with Golang, InfluxDB, and Apache Kafka, it provides detailed insights into user behavior, including page views, clicks, scroll depth, mouse movements, and form interactions.
+WebWatch is a sophisticated tool for capturing and analyzing real-time user interactions on websites. Built with Golang, InfluxDB, and Apache Kafka, it provides detailed insights into user behavior, including page views, clicks, scroll depth, mouse movements, and form interactions.
 
 Key Features:
 1. Real-Time Data Capture: Tracks user interactions such as page views, clicks, scrolls, and media plays in real-time.

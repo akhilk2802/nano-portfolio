@@ -16,4 +16,4 @@ dateEnd: "08/08/2023"
 - Collaborated with the infra team to implement RBAC with Azure AD, enhancing security and reducing login errors from 50+ per week to less than 10, while streamlining user access management across the system
 - Developed alongside an Agile team of three and optimized RESTful APIs for key functionalities, achieving a 25% reduction in response times and 70% test coverage through comprehensive unit and integration testing
 
-[*link to project i worked on*](https://www.sony.com/en/SonyInfo/technology/activities/STEF2022/exhibition_0103/)
+[*link to project I worked on*](https://www.sony.com/en/SonyInfo/technology/activities/STEF2022/exhibition_0103/)

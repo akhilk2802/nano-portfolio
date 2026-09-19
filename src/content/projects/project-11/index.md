@@ -6,5 +6,5 @@ repoURL: "https://github.com/akhilk2802/distributed-file-storage"
 ---
 
 - Built a generic peer-2-peer library from scratch using goroutines.
-- Implemented Data replication for high fault tolearance
+- Implemented Data replication for high fault tolerance
 - Created READ, WRITE, DELETE functionalities

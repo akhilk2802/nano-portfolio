@@ -17,4 +17,4 @@ Node.js, Express.js, Spring Boot, .NET Core, Django, React.js, Redux, Hibernate(
 MySQL, PostgreSQL, SQLite, MongoDB, Elasticsearch
 
 #### Tools: 
-Linux, Git, Github, gRPC, Nginx, Kafka, RabbitMQ, Redis, GraphQL, Jenkins, Postman, Grafana, Jira
+Linux, Git, GitHub, gRPC, Nginx, Kafka, RabbitMQ, Redis, GraphQL, Jenkins, Postman, Grafana, Jira

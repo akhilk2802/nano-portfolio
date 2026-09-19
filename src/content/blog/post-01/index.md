@@ -8,17 +8,17 @@ date: "Jul 17 2024"
 
 ## Introduction
 
-### Why distributed systems are crucial in today’s tech landscape ?
+### Why distributed systems are crucial in today’s tech landscape?
 
 Modern computing architectures are becoming increasingly complex with the growing demand for processing power, resources, and the proliferation of devices, alongside the advancements in artificial intelligence (AI).
 
 To support these advancements, we need systems that are more scalable and fault-tolerant. This is where distributed systems come into play.
 
-### purpose of the blog :
+### Purpose of the blog
 
-As an enthusiast of distributed computing, I have always sought out the best resources for learning and building distributed systems. In this blog, I aim to consolidate these invaluable resources into one place, which i have used in learning so far, providing a comprehensive guide for those passionate about distributed computing like myself.
+As an enthusiast of distributed computing, I have always sought out the best resources for learning and building distributed systems. In this blog, I aim to consolidate these invaluable resources into one place, which I have used in learning so far, providing a comprehensive guide for those passionate about distributed computing like myself.
 
-### Overview :
+### Overview
 
 As a software engineer with a passion for building scalable web applications that improve people’s daily lives, I’ve always been intrigued by the underlying technologies that power large-scale systems. Recently, during the IPL matches in India, I was astounded by the sheer number of viewers — reaching up to 620 million — watching simultaneously without any interruptions. This remarkable feat sparked my interest in Content Delivery Networks (CDNs) and the architecture of these robust systems.
 
@@ -59,13 +59,11 @@ Imagine a group of friends trying to decide on a restaurant for dinner. If some 
 
 Just a heads-up: This is my personal way of learning distributed systems. What works for me might not work for you. Use this as a guide, but feel free to tweak it to fit your own learning style and preferences.
 
-I began my journey with the open-source courses on Distributed Systems and Operating Systems (CmpSci - 677) from UMass Amherst by Professor Prashant Shenoy. He provides all the resources, including YouTube videos of the classes and notes for each session. Professor Shenoy is an excellent teacher and explains the concepts very well. I referred to his videos to build my foundational knowledge. Additionally, I checked out [MIT’s 6.824 course](https://www.youtube.com/@6.824), which is also available on YouTube, to further enhance my understanding.
+I began my journey with the open-source courses on Distributed Systems and Operating Systems (CMPSCI 677) from UMass Amherst by Professor Prashant Shenoy. He provides all the resources, including YouTube videos of the classes and notes for each session. Professor Shenoy is an excellent teacher and explains the concepts very well. I referred to his videos to build my foundational knowledge. Additionally, I checked out [MIT’s 6.824 course](https://www.youtube.com/@6.824), which is also available on YouTube, to further enhance my understanding.
 
 I also referred to two key books: Designing Data-Intensive Applications by Martin Kleppmann and Distributed Systems by Andrew Tanenbaum, which provided in-depth knowledge and valuable insights into the principles and practices of distributed systems. Additionally, I read numerous blog posts on Medium covering specific topics. I’ll keep adding more of these resources here shortly.
 
-I also referred to two key books: Designing Data-Intensive Applications by Martin Kleppmann and Distributed Systems by Andrew Tanenbaum, which provided in-depth knowledge and valuable insights into the principles and practices of distributed systems. Additionally, I read numerous blog posts on Medium covering specific topics. I’ll keep adding more of these resources here shortly.
-
-And of-course chatGPT’d a lot of stuff to understand better.
+And of course, ChatGPT-ed a lot of stuff to understand better.
 
 ### Building a Strong Foundation and understanding:
 
@@ -95,20 +93,20 @@ Later, after gaining good knowledge, I built a key-value store using various dis
 
 Currently working on more exciting projects.
 
-references i used for RPC and RAFT —
+References I used for RPC and RAFT —
 
 1. https://raft.github.io/raft.pdf
 2. http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-83-7_Implementing_Remote_Procedure_Calls.pdf
-3. youtube channel — https://www.youtube.com/@anthonygg_
-4. youtyube channel - https://www.youtube.com/playlist?list=PLacuG5pysFbBpWHfKUU9Dfdk8RmQ7B9EH
+3. YouTube channel — https://www.youtube.com/@anthonygg_
+4. YouTube channel - https://www.youtube.com/playlist?list=PLacuG5pysFbBpWHfKUU9Dfdk8RmQ7B9EH
 
-Thanks for sticking along and reading till here, I will add more content as i learn and build more projects. If anyone wants to start learning systems, i would suggest
+Thanks for sticking along and reading till here, I will add more content as I learn and build more projects. If anyone wants to start learning systems, I would suggest
 
  - Start with the basics and gradually move to more complex topics.
  - Don’t just read — implement and experiment with code.
  - Utilize online courses, books, and blog posts to build your knowledge.
  - Join communities and forums to discuss your ideas and get feedback.
 
-Will share more intresting insights from Distributed systems and cloud shortly
+Will share more interesting insights from Distributed systems and cloud shortly
 
 I invite you to share your experiences or ask any questions in the comments below. Let’s learn and grow together in the fascinating world of distributed systems!

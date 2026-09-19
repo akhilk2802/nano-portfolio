@@ -15,6 +15,6 @@ The application provides:
 2. Test Case Management: Extracts test questions and context from the dataset.
 3. Evaluation Metrics: Compares model responses with predefined Answers
 4. Feedback Recording: Records user corrections and feedback in a CSV file
-5. Evaluation Report: Displays all evaluation results in a tabular format and visualisations.
+5. Evaluation Report: Displays all evaluation results in a tabular format and visualizations.
 
 ###### Built this application as a part of course work 

@@ -12,7 +12,7 @@ I have always wondered how Amazon or any shopping website consistently masters t
 
 This curiosity led me to explore real-time analytics and data-driven projects. The concept intrigued me so much that I decided to dive in and build a project of my own. While I know there are many big players in this field, I was eager to learn the underlying concepts of real-time data transactions and the system design that powers them.
 
-Note — This project was only built to understand how real time sysmtems and time series databases work.
+Note — This project was only built to understand how real-time systems and time-series databases work.
 
 ### Overview :
 
@@ -32,7 +32,7 @@ To start using the service, website owners simply embed a tracking.js script int
  - **Video Plays/Completions:** Analyzes user interaction with video content, including plays and completions.
  - **Downloads:** Monitors file download activity from the site.
  - **Image Views:** Tracks which images are being viewed and when.
-Working on to add more events
+Working on adding more events
 
 #### Backend Setup and data storage:
 
@@ -43,7 +43,7 @@ The backend of WebWatch is built using Golang, which handles data ingestion, pro
 
 ### Understanding the Tracking Mechanism:
 
-Lets dive into the details of how the interactions are tracked.
+Let's dive into the details of how the interactions are tracked.
 
 When the project is hosted, the `tracking.js` script is exposed, containing JavaScript functions that leverage DOM manipulation and event handlers. When a user performs an event—such as clicking a button or any DOM element—the associated event listener detects the action. This triggers a function, such as `trackClick`, which records details including the clicked DOM element, its position on the x and y axes of a Cartesian plane, the timestamp, and the userId. This data is then sent to an endpoint, such as `http://localhost:8080/track`, which is exposed by the server.
 
@@ -134,11 +134,11 @@ func AggregatePageViewData(url string, count int) {
 
 Once the data is stored in InfluxDB, it can be used for various visualizations. The Grafana dashboard fetches the data every 5 seconds to provide near real-time insights. To achieve true real-time updates, a WebSocket connection can be established between the client (dashboard) and the server, allowing for continuous, live updates of the data being visualized.
 
-Grafana Visualisation:
+Grafana Visualization:
 
-![Grafana Visualisation](./grafana_vis.jpeg)
+![Grafana Visualization](./grafana_vis.jpeg)
 
-### Future Enhacements:
+### Future Enhancements:
 
 1. **User Authentication:** Enable secure sign-up and login, allowing multiple users to access the service, manage profiles, and ensure data privacy.
 
@@ -146,11 +146,11 @@ Grafana Visualisation:
 
 3. **Advanced Analytics:** Implement machine learning for predictive insights, anomaly detection, and recommendations to enhance data-driven decision-making.
 
-4. **Scalability:** Deploy on AWS/GCP with load balancing, auto-scaling, and managed services to ensure the platform handles increasing traffic efficiently. (Only if i get funds to do this lol)
+4. **Scalability:** Deploy on AWS/GCP with load balancing, auto-scaling, and managed services to ensure the platform handles increasing traffic efficiently. (Only if I get funds to do this lol)
 
 5. **Custom Dashboard:** Create a responsive, interactive dashboard using React and Three.js, with real-time updates and customizable widgets for an enhanced user experience.
 
-6. Bring in Community to develop and contribute this and open source the solution
+6. Bring in the community to develop and contribute to this, and open-source the solution
 
 
 ### Conclusion
@@ -161,10 +161,10 @@ I encourage you to clone the WebWatch repository, explore the code, and implemen
 
 Feedback and contributions are always welcome! Whether you have ideas for new features, improvements, or just want to share your experience using WebWatch, your input can help make this project even better.
 
-This project was solely done to experiment with Apache Kafka and visualisation tools
+This project was solely done to experiment with Apache Kafka and visualization tools
 
-Github Repo — https://github.com/akhilk2802/WebWatch 
+GitHub Repo — https://github.com/akhilk2802/WebWatch 
 
-Thank you for reading till here, I have just started writing on this amazing platform, Lets learn and grow together.
+Thank you for reading till here, I have just started writing on this amazing platform. Let's learn and grow together.
 
 Please share if you like the content.
